@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B846818E-E63E-4F31-9805-5346F30995D9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F9C2FBB4-D105-450D-B19D-0679FBC5C4CF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MetalSurface/ARContainer/ARDetectionView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "handleTap(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F9C2FBB4-D105-450D-B19D-0679FBC5C4CF - adf794f6825ba7c6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MetalSurface.ARDetectionView.handleTap(__C.UITapGestureRecognizer) -&gt; ()"
+                  moduleName = "MetalSurface"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookair/Desktop/MetalSurface/MetalSurface/ARContainer/ARDetectionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "252">
+               </Location>
+               <Location
+                  uuid = "F9C2FBB4-D105-450D-B19D-0679FBC5C4CF - adf794f6825ba7c6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MetalSurface.ARDetectionView.handleTap(__C.UITapGestureRecognizer) -&gt; ()"
+                  moduleName = "MetalSurface"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookair/Desktop/MetalSurface/MetalSurface/ARContainer/ARDetectionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "388">
+               </Location>
+               <Location
+                  uuid = "F9C2FBB4-D105-450D-B19D-0679FBC5C4CF - adf794f6825ba7c6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MetalSurface.ARDetectionView.handleTap(__C.UITapGestureRecognizer) -&gt; ()"
+                  moduleName = "MetalSurface"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookair/Desktop/MetalSurface/MetalSurface/ARContainer/ARDetectionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "412">
+               </Location>
+               <Location
+                  uuid = "F9C2FBB4-D105-450D-B19D-0679FBC5C4CF - adf794f6825ba7c6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MetalSurface.ARDetectionView.handleTap(__C.UITapGestureRecognizer) -&gt; ()"
+                  moduleName = "MetalSurface"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookair/Desktop/MetalSurface/MetalSurface/ARContainer/ARDetectionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "568">
+               </Location>
+               <Location
+                  uuid = "F9C2FBB4-D105-450D-B19D-0679FBC5C4CF - adf794f6825ba627"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MetalSurface.ARDetectionView.handleTap(__C.UITapGestureRecognizer) -&gt; ()"
+                  moduleName = "MetalSurface"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookair/Desktop/MetalSurface/MetalSurface/ARContainer/ARDetectionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "248">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
