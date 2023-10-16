@@ -32,6 +32,7 @@ struct ModelListView: View {
             }
             .sheet(item: $viewModel.selectedModelName) { model in
                 ARContainer(modelName: model.id)
+                    .lighting()
                     .onDisappear {
                         viewModel.clearSelection()
                     }

@@ -28,6 +28,8 @@
 		D080A1F62AD85BF100B9D284 /* ModelListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D080A1F52AD85BF100B9D284 /* ModelListViewModel.swift */; };
 		D080A1F82AD8607A00B9D284 /* ARDetectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D080A1F72AD8607A00B9D284 /* ARDetectionViewModel.swift */; };
 		D080A1FB2AD8620100B9D284 /* ARDetectionView+PlaneExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D080A1FA2AD8620000B9D284 /* ARDetectionView+PlaneExtension.swift */; };
+		D0858BD42ADC5E65000FDA8F /* Vertex.metal in Sources */ = {isa = PBXBuildFile; fileRef = D0858BD32ADC5E65000FDA8F /* Vertex.metal */; };
+		D0858BD62ADC6245000FDA8F /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0858BD52ADC6245000FDA8F /* Renderer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +76,8 @@
 		D080A1F52AD85BF100B9D284 /* ModelListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelListViewModel.swift; sourceTree = "<group>"; };
 		D080A1F72AD8607A00B9D284 /* ARDetectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDetectionViewModel.swift; sourceTree = "<group>"; };
 		D080A1FA2AD8620000B9D284 /* ARDetectionView+PlaneExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARDetectionView+PlaneExtension.swift"; sourceTree = "<group>"; };
+		D0858BD32ADC5E65000FDA8F /* Vertex.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Vertex.metal; sourceTree = "<group>"; };
+		D0858BD52ADC6245000FDA8F /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,9 +156,11 @@
 				929A6E452AD82D5F0012BFFB /* Resources */,
 				D073C0FF2AD6854100FDADE7 /* Utilities */,
 				D01675F52AD2D4EC00F11367 /* Shaders.metal */,
+				D0858BD32ADC5E65000FDA8F /* Vertex.metal */,
 				D073C0B12AD5869D00FDADE7 /* Definitions.h */,
 				D0392A2F2AD6AB5200CB19DF /* Info.plist */,
 				D01675D12AD2D4B900F11367 /* Preview Content */,
+				D0858BD52ADC6245000FDA8F /* Renderer.swift */,
 			);
 			path = MetalSurface;
 			sourceTree = "<group>";
@@ -359,7 +365,9 @@
 				D073C0F12AD6689A00FDADE7 /* ARDetectionView.swift in Sources */,
 				D080A1FB2AD8620100B9D284 /* ARDetectionView+PlaneExtension.swift in Sources */,
 				D080A1F32AD85B8A00B9D284 /* View+lightingExtension.swift in Sources */,
+				D0858BD42ADC5E65000FDA8F /* Vertex.metal in Sources */,
 				D073C0F52AD669AB00FDADE7 /* simd_float4x4.swift in Sources */,
+				D0858BD62ADC6245000FDA8F /* Renderer.swift in Sources */,
 				D073C0FD2AD6840C00FDADE7 /* ARContainer.swift in Sources */,
 				D080A1F62AD85BF100B9D284 /* ModelListViewModel.swift in Sources */,
 				929A6E442AD7167A0012BFFB /* ModelListView.swift in Sources */,

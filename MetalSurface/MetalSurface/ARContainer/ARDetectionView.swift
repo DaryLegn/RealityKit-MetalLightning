@@ -15,7 +15,10 @@ final class ARDetectionView: ARView {
      @StateObject var viewModel = ARDetectionViewModel()
      
      // MARK: - Properties
-     private var arView: ARView { return self }
+     var arView: ARView { return self }
+     var metalDevice: MTLDevice!
+     var pipelineState: MTLRenderPipelineState!
+     var renderer: Renderer!
      
      // MARK: - Init
      required init(frame frameRect: CGRect) {
@@ -32,6 +35,7 @@ final class ARDetectionView: ARView {
           viewModel.modelName = modelName
           arView.cameraMode = .ar
           setupARSession()
+          getMetal()
           let tapGesture = UITapGestureRecognizer(target: self, action: #selector(handleTap))
           tapGesture.cancelsTouchesInView = false
           addGestureRecognizer(tapGesture)
@@ -43,6 +47,26 @@ final class ARDetectionView: ARView {
           configuration.planeDetection = [.horizontal]
           session.run(configuration)
           session.delegate = self
+     }
+     
+     func getMetal() {
+          if let metalDevice = MTLCreateSystemDefaultDevice() {
+               self.metalDevice = metalDevice
+               self.renderer = Renderer(self)
+               
+               let library = metalDevice.makeDefaultLibrary()
+               
+               let vertexFunction = library?.makeFunction(name: "vertex_main")
+               
+               let pipelineDescriptor = MTLRenderPipelineDescriptor()
+               pipelineDescriptor.vertexFunction = vertexFunction
+               
+               do {
+                    pipelineState = try metalDevice.makeRenderPipelineState(descriptor: pipelineDescriptor)
+               } catch {
+                    print("Failed to create pipeline state: \(error)")
+               }
+          }
      }
      
      // MARK: - Actions
